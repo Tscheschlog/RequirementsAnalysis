@@ -41,27 +41,53 @@ Describe methods to conduct the business operation in an unsteady state, for exa
 Define the level of quality required for the business operation. For example, a business process may address required urgency with higher priority than the reliability of the business process.
 ## Business structure
 Identify and describe the structures in the business relevant to the system, such as organizational structure (divisions and departments), role and responsibility structures, geographic structures, and resource-sharing structures. There may be a need to align the system functions to these structures and to support future structural changes.
-
 # Preliminary operational concept of proposed system
 ## Preliminary operational concept
 Describe the proposed system in a high-level manner, indicating the operational features that are to be provided without specifying design details. The following information should be included:
 ### a) operational policies and constraints
+Minimum requirements for the device that will be using the software (Google Nest Hub)
+Types of images that can be displayed (JPG, PNG, etc.)
+Restrictions on the user's ability to interact with the software (ask for the next step or ask for any step in any order)
 ### b) description of the proposed system 
+Uses DialogFlow to create a conversational interface
+Can be asked to provide the steps for a 5-step assembly
+Displays pictures on a Google Nest Hub's screen
+Helps users assemble something more easily by having the steps displayed and described through a conversational interface
+Compares to using a paper manual or diagram
 ### c) modes of system operation
+User can ask for the next step in the assembly
+User can ask for a specific step by number
+System displays corresponding picture and description on the Google Nest Hub's screen
 ### d) user classes and other involved personnel
+User class: anyone who needs to assemble something using the 5-step assembly process
+Other involved personnel: software developers, support staff
 ### e) support environment
+Google Nest Hub device
+Internet connection for DialogFlow
+Tools or materials required for the 5-step assembly process
 ## Preliminary operational scenarios
-Describe examples of how users/operators/maintainers will interact with the system in important contexts of use. The high-level scenarios are described for an activity or a series of activities of business processes supported by the system. The scenarios should be uniquely named and numbered and should be referenced in the description of the business processes in 9.3.9.
+Interaction with the software to get the steps for the 5-step assembly process
+Display of pictures on the Google Nest Hub's screen
+Other real-world scenarios for using the software
 # Other preliminary life-cycle concepts
 ## Preliminary acquisition concept
-describes the way the system solution will be acquired including  aspects such as stakeholder engagement, source of the solution, requirements definition, solicitation and contracting issues, design, production and verification.
+Purchase
+Subscription
+Other means of acquiring the software
 ## Preliminary deployment concept
-describes the way the system solution will be validated, delivered and introduced into operations.
+App store
+Installation process on the user's device
 ## Preliminary support concept
-describes the desired support infrastructure and manpower considerations for supporting the system solution after it is deployed. A support concept addresses operating support, engineering support, maintenance support, supply support and training support.
+Help desk
+User manual
+Online community
 ## Preliminary retirement concept
-describes the way the system will be removed from operation and retired, including the disposal of any hazardous materials used in or resulting from the process.
+Phased out
+Replaced by a new version
+Archived for future reference
 # Project Constraints 
-Describe constraints to performing the project within cost and schedule. 
+Budget constraints
+Technical limitations
+Scheduling limitations
 # Appendix
 ## Acronyms and abbreviations
