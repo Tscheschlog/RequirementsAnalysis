@@ -45,48 +45,55 @@ Identify and describe the structures in the business relevant to the system, suc
 ## Preliminary operational concept
 ### a) operational policies and constraints
 * Minimum requirements for the device that will be using the software (Google Nest Hub)
-* Types of images that can be displayed (JPG, PNG, etc.)
+* Types of images that can be displayed (JPG, PNG)
 * Restrictions on the user's ability to interact with the software (ask for the next step or ask for any step in any order)
 ### b) description of the proposed system 
-* Uses DialogFlow to create a conversational interface
-* Can be asked to provide the steps for a 5-step assembly
+* Uses DialogFlow ES to create a conversational interface
+* Can be asked to provide the steps for a given assembly
 * Displays pictures on a Google Nest Hub's screen
 * Helps users assemble something more easily by having the steps displayed and described through a conversational interface
-* Compares to using a paper manual or diagram
+* Compare the software to using a paper manual and diagram (blueprint)
 ### c) modes of system operation
 * User can ask for the next step in the assembly
-* User can ask for a specific step by number
+* User can ask for a specific step by requesting the step number
 * System displays corresponding picture and description on the Google Nest Hub's screen
 ### d) user classes and other involved personnel
-* User class: anyone who needs to assemble something using the 5-step assembly process
-* Other involved personnel: software developers, support staff
+* User class: anyone who needs to assemble something requiring a particular step-by-step process
+* Other involved personnel: software developer, professor
 ### e) support environment
 * Google Nest Hub device
-* Internet connection for DialogFlow
-* Tools or materials required for the 5-step assembly process
+* Internet connection for DialogFlow ES
+* Tools and materials required for the assembly process
+* WiFi access
+* Developer present
 ## Preliminary operational scenarios
 * Interaction with the software to get the steps for the 5-step assembly process
 * Display of pictures on the Google Nest Hub's screen
 * Other real-world scenarios for using the software
 # Other preliminary life-cycle concepts
 ## Preliminary acquisition concept
-* Purchase
-* Subscription
 * Other means of acquiring the software
+  * The software is meant for experimental purposes and is not to be sold even in its completed state.  
 ## Preliminary deployment concept
-* App store
-* Installation process on the user's device
+* Implementation process on the user's device
+  * Once the software in launched it will only be accessable on the development account device. The reason for this is that the software in meant for guided experimentation. 
 ## Preliminary support concept
-* Help desk
-* User manual
 * Online community
+  *  StackOverflow helped in pointing the direction of development as it gave an alternative to the sunsetting Google Conversational Action software
 ## Preliminary retirement concept
-* Phased out
 * Replaced by a new version
+  * The purpose of the software would be to create a POC (Proof of Concept) along with showing significance in favor of the software
 * Archived for future reference
+  * The software being created will be a launch pad into creating a more complex software capable of tackling more complex projects
 # Project Constraints 
 * Budget constraints
+  * The project was given a grant, therefore, completion of a prototype and testing must not overtake the amount
 * Technical limitations
+  * The Google Nest Hub and DialogFlow ES software are unable to keep track of data recieved by the user
+  * The Express.js server must be running on the same WiFi as the Google Nest Hub
 * Scheduling limitations
+  * The developer must attend every test to setup the server to track data along with record the session 
 # Appendix
 ## Acronyms and abbreviations
+* DialogFlow ES
+  *  ES - Essentials
