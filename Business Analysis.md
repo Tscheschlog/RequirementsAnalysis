@@ -41,3 +41,21 @@ Describe methods to conduct the business operation in an unsteady state, for exa
 Define the level of quality required for the business operation. For example, a business process may address required urgency with higher priority than the reliability of the business process.
 ## Business structure
 Identify and describe the structures in the business relevant to the system, such as organizational structure (divisions and departments), role and responsibility structures, geographic structures, and resource-sharing structures. There may be a need to align the system functions to these structures and to support future structural changes.
+
+# Preliminary operational concept of proposed system
+## Preliminary operational concept - Describe the proposed system in a high-level manner, indicating the operational features that are to be provided without specifying design details. The following information should be included:
+### a) operational policies and constraints;
+### b) description of the proposed system; 
+### c) modes of system operation;
+### d) user classes and other involved personnel; and
+### e) support environment. 
+## Preliminary operational scenarios - Describe examples of how users/operators/maintainers will interact with the system in important contexts of use. The high-level scenarios are described for an activity or a series of activities of business processes supported by the system. The scenarios should be uniquely named and numbered and should be referenced in the description of the business processes in 9.3.9.
+# Other preliminary life-cycle concepts
+## Preliminary acquisition concept - describes the way the system solution will be acquired including  aspects such as stakeholder engagement, source of the solution, requirements definition, solicitation and contracting issues, design, production and verification.
+## Preliminary deployment concept - describes the way the system solution will be validated, delivered and introduced into operations.
+## Preliminary support concept - describes the desired support infrastructure and manpower considerations for supporting the system solution after it is deployed. A support concept addresses operating support, engineering support, maintenance support, supply support and training support.
+## Preliminary retirement concept - describes the way the system will be removed from operation and retired, including the disposal of any hazardous materials used in or resulting from the process.
+# Project Constraints 
+Describe constraints to performing the project within cost and schedule. 
+# Appendix
+## Acronyms and abbreviations
